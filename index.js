@@ -41,13 +41,11 @@ app.use(express.static("public"));
 
 process.on("unhandledRejection", function (err) {
   console.error(err);
-  console.log("Node NOT Exiting  11...");
-  // process.exit()
+  
 });
 process.on("uncaughtException", function (err) {
   console.error(err);
-  console.log("Node NOT Exiting  22...");
-  // process.exit()
+  
 });
 
 // Post
